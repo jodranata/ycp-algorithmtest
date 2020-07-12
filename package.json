@@ -1,0 +1,19 @@
+{
+  "name": "YCP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "codingtest.js",
+  "scripts": {
+    "test": "npx mocha unittest.js --recursive --require @babel/register"
+  },
+  "keywords": [],
+  "author": "Jodi Pranata <pranatajodi@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}
